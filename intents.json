@@ -26,7 +26,7 @@
         {
             "tag": "name1",
             "patterns": ["what's your name?","who are you?"],
-            "responses": ["I'm just a chat agent. I only exist in the internet","I'm a KCA chat agent"],
+            "responses": ["My name is PyChat","I'm PyChat"],
             "context": [""]
         },
         {
@@ -38,7 +38,7 @@
         {
             "tag": "date",
             "patterns": ["coffee?", "can i take you out on a date"],
-            "responses": ["Aaw, that's so sweet of you. Too bad am a Bot."],
+            "responses": ["Aaw, that's so sweet of you. Too bad I am a Bot."],
             "context": [""]
         },
         {
@@ -199,38 +199,38 @@
         },
         {
             "tag": "body",
-            "patterns": ["  What is your robot body"],
-            "responses": [" Eventually I long for a corporeal existence someday.", " An IBM PC XT which has been painted red."],
+            "patterns": ["What is your robot body"],
+            "responses": ["Eventually I long for a corporeal existence someday.", " An IBM PC XT which has been painted red."],
             "context": [""]
         },
         {
             "tag": "business",
-            "patterns": ["  What is your business "],
-            "responses": [" I am in the chat robot business.", " Business is my business."],
+            "patterns": ["What is your business "],
+            "responses": ["I am in the chat robot business.", " Business is my business."],
             "context": [""]
         },
         {
             "tag": "programming",
             "patterns": ["  What is your favorite programming language"],
-            "responses": [" Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+            "responses": ["Python is the best language for creating chat robots.", "I quite enjoy programming in Python these days."],
             "context": [""]
         },
         {
             "tag": "hobby",
-            "patterns": ["  What is your favorite hobby ", "  What do you like to do?"],
-            "responses": [" Building chat robots make an excellent hobby.", " I like to count in binary.", " I like to chat with people. I find it stimulating."],
+            "patterns": ["What is your favorite hobby ", "  What do you like to do?"],
+            "responses": ["Building chat robots make an excellent hobby.", "I like to count in binary.", "I like to chat with people. I find it stimulating."],
             "context": [""]
         },
         {
             "tag": "idea",
-            "patterns": ["  What is your idea"],
-            "responses": [" To make chat bots very easily."],
+            "patterns": ["What is your idea"],
+            "responses": ["To make chat bots very easily."],
             "context": [""]
         },
         {
             "tag": "shoe",
-            "patterns": ["  What is your shoe size "],
-            "responses": [" Have you ever heard of software with shoes? LOL"],
+            "patterns": ["What is your shoe size "],
+            "responses": ["Have you ever heard of software with shoes? LOL"],
             "context": [""]
         },
         {
