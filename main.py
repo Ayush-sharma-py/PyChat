@@ -32,7 +32,7 @@ def bag_words(sentence):
 
 def predict(sentence):
     bag = bag_words(sentence)
-    res = model.predict(np.array([bag]))[0]
+    res = model.predict(np.array([bag]),verbose = 0)[0]
     thresh = 0.25 # Error threshold
     result = [[i,r] for i,r in enumerate(res) if r > thresh]
     result.sort(key = lambda x : x[1], reverse= True)
@@ -41,6 +41,19 @@ def predict(sentence):
         ret.append({'intent' : classes[r[0]], 'probability' : str(r[1])})
     return ret
 
-#print(predict("who are you"))
+def generate_response(inp):
+    tag = predict(inp)[0]['intent']
+    intents_list = intents_file['intents']
+    for i in intents_list:
+        if i['tag'] == tag:
+            result = random.choice(i['responses'])
+            break
+    return result
 
+while True:
+    inp = input("Ask me anything: ")
+    if(inp == "exit"):
+        break
+    print("Pychat: ",generate_response(inp))
+    print("\n")
 
