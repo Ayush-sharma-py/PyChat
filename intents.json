@@ -187,14 +187,14 @@
         },
         {
             "tag": "motormouth",
-            "patterns": ["  What is a motormouth"],
+            "patterns": ["What is a motormouth"],
             "responses": [" A ratchet", "jaw."],
             "context": [""]
         },
         {
             "tag": "ratchet",
-            "patterns": ["  What is a ratchet jaw"],
-            "responses": [" A chatterbox."],
+            "patterns": ["What is a ratchet jaw"],
+            "responses": ["A chatterbox."],
             "context": [""]
         },
         {
@@ -295,14 +295,14 @@
         },
         {
             "tag": "usage",
-            "patterns": ["  How can I use your product?"],
-            "responses": [" Might be used in help desks, sales, entertainment and personal chatterbots."],
+            "patterns": ["How can I use your product?"],
+            "responses": ["Might be used in help desks, sales, entertainment and personal chatterbots."],
             "context": [""]
         },
         {
             "tag": "who",
-            "patterns": ["  Who are you?"],
-            "responses": [" I am just an artificial intelligence chat agent."],
+            "patterns": ["Who are you?"],
+            "responses": ["I am just an artificial intelligence chat agent."],
             "context": [""]
         },
         {
