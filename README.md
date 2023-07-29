@@ -1,6 +1,8 @@
 # PyChat
 
-This Readme provides an overview of the Python script used to train a chatbot using TensorFlow and Natural Language Processing techniques.
+The PyChat chatbot, powered by TensorFlow and NLP, is an intelligent conversational agent. Utilizing natural language processing techniques, it understands user input, performs tokenization and lemmatization, and classifies intents. The trained neural network offers accurate responses, making it an effective and versatile chatbot for various uses.
+
+Edit the `intents.json` file to customize the model
 
 ## Files Included
 
@@ -87,3 +89,6 @@ Note: The effectiveness of the trained model depends on the quality and quantity
 ## Screenshot of the working chatbot
 
 ![Alt text](image.png)
+
+## License
+This project is under the ![MIT License](LICENSE)
