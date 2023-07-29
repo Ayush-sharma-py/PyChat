@@ -91,4 +91,4 @@ Note: The effectiveness of the trained model depends on the quality and quantity
 ![Alt text](image.png)
 
 ## License
-This project is under the ![MIT License](LICENSE)
+This project is under the [MIT License](LICENSE)
