@@ -81,7 +81,7 @@ Note: The effectiveness of the trained model depends on the quality and quantity
 
 - This script is designed for educational purposes and serves as a basic example of how to train a chatbot using TensorFlow. For production-level chatbots, you may need to implement more advanced techniques and use larger and more diverse datasets. Additionally, the script does not cover other aspects of chatbot development, such as response generation and context tracking.
 
-- The default model is trained to answer questions about itself such.
+- The default model is trained to answer questions about itself.
 
 
 ## Screenshot of the working chatbot
