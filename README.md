@@ -51,7 +51,7 @@ pip install tensorflow
 
 ## Running the Script
 
-To train the chatbot model, follow these steps:
+### To train the chatbot model, follow these steps:
 
 1. Place the `intents.json` file in the same directory as the `train_chatbot.py` script.
 
@@ -67,10 +67,23 @@ python model.py
 
 5. After training is complete, the script will save the trained model to `chatbot_model.h5`.
 
-6. You can now use the trained model in your chatbot application for natural language understanding and intent classification.
+6. You can now use the trained model in your chatbot application for natural language understanding and intent classification or you can use the `PyChat.py` script to run the newly trained model.
 
 Note: The effectiveness of the trained model depends on the quality and quantity of the training data in `intents.json`. Make sure to provide diverse and relevant patterns to improve the chatbot's performance.
 
+### To use the default model
+
+1. Clone the repository and run the `PyChat.py` script. It will ask you for a input and give output on the basis of that
+
+2. There is no need to edit anything to use the default model
+
 ## Disclaimer
 
-This script is designed for educational purposes and serves as a basic example of how to train a chatbot using TensorFlow. For production-level chatbots, you may need to implement more advanced techniques and use larger and more diverse datasets. Additionally, the script does not cover other aspects of chatbot development, such as response generation and context tracking.
+- This script is designed for educational purposes and serves as a basic example of how to train a chatbot using TensorFlow. For production-level chatbots, you may need to implement more advanced techniques and use larger and more diverse datasets. Additionally, the script does not cover other aspects of chatbot development, such as response generation and context tracking.
+
+- The default model is trained to answer questions about itself such.
+
+
+## Screenshot of the working chatbot
+
+![Alt text](image.png)
