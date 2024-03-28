@@ -337,7 +337,7 @@
         },
         {
             "tag": "calendar",
-            "patterns": ["There is an event","even","what is the date","remind me"],
+            "patterns": ["There is an event","event","what is the date","remind me"],
             "responses": ["You can use https://calendar.google.com/"],
             "context": [""]
         },
